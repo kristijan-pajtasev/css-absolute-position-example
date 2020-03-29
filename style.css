@@ -1,7 +1,23 @@
-#container {
+body {
+    margin: 0;
+    padding: 0;
+}
 
+#container {
+    background: #eee;
+    height: 500px;
+    position: relative;
+    width: 100%;
 }
 
 #content {
-
+    background: #aaa;
+    bottom: 0;
+    height: 100px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
 }
